@@ -1,0 +1,7 @@
+const { multiplicar } = require('./index')
+
+describe('Função multiplicar', () => {
+  test('2 x 3 deve ser 6', () => {
+    expect(multiplicar(2, 3)).toBe(6)
+  })
+})
